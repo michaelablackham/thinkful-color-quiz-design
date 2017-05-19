@@ -1,0 +1,51 @@
+* {
+  color:#fefefe;
+  font-family: 'Lato', sans-serif;
+}
+
+body {
+  background: #101010;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-weight: 900;
+}
+
+button {
+  color: #fff;
+  background: red;
+  border: 0;
+  padding: .5em 1.5em;
+  text-transform: uppercase;
+  font-weight: 900;
+
+  &.submit {
+    background: green;
+  }
+  &.reset {
+    background: #c0c0c0;
+  }
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+}
+
+fieldset {
+  border: 0;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  justify-content: space-between;
+}
+
+.flexbox > span {
+  width: 50%;
+}
